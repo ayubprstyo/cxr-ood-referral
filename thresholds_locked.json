@@ -1,0 +1,52 @@
+{
+  "efficientnet_b4": {
+    "A_primary": {
+      "rule": "max validation sensitivity s.t. specificity>=0.95 (ties: higher specificity, then higher threshold)",
+      "threshold": 0.6151456,
+      "threshold_logit": 0.4689939068127956,
+      "val_sensitivity": 0.996316758747698,
+      "val_specificity": 0.9743589743589743
+    },
+    "B_secondary": {
+      "rule": "max validation specificity s.t. sensitivity>=0.95 (original pre-specified rule)",
+      "threshold": 0.9796676635742188,
+      "threshold_logit": 3.875000849286004,
+      "val_sensitivity": 0.988950276243094,
+      "val_specificity": 1.0
+    },
+    "C_default": {
+      "rule": "0.50, not data-derived",
+      "threshold": 0.5,
+      "threshold_logit": 0.0,
+      "val_sensitivity": 0.996316758747698,
+      "val_specificity": 0.9692307692307692
+    }
+  },
+  "vit_b16": {
+    "A_primary": {
+      "rule": "max validation sensitivity s.t. specificity>=0.95 (ties: higher specificity, then higher threshold)",
+      "threshold": 0.42805406,
+      "threshold_logit": -0.28979498040711366,
+      "val_sensitivity": 0.998158379373849,
+      "val_specificity": 0.9794871794871794
+    },
+    "B_secondary": {
+      "rule": "max validation specificity s.t. sensitivity>=0.95 (original pre-specified rule)",
+      "threshold": 0.9709092378616333,
+      "threshold_logit": 3.5078123195824205,
+      "val_sensitivity": 0.992633517495396,
+      "val_specificity": 1.0
+    },
+    "C_default": {
+      "rule": "0.50, not data-derived",
+      "threshold": 0.5,
+      "threshold_logit": 0.0,
+      "val_sensitivity": 0.996316758747698,
+      "val_specificity": 0.9846153846153847
+    }
+  },
+  "_locked": {
+    "date": "2026-10-05",
+    "basis": "Notebook 02 Mooney validation predictions only; no ID-test or NIH output existed"
+  }
+}

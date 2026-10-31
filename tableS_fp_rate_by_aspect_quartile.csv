@@ -1,0 +1,21 @@
+model,cohort,aspect_quartile,aspect_range,n_normal,false_positive_rate,ci_low,ci_high
+efficientnet_b4,MOONEY_VAL,Q1 (narrowest),0.90–1.14,49,0.0,0.0,0.0
+efficientnet_b4,MOONEY_VAL,Q2,1.14–1.22,49,0.02,0.0,0.062
+efficientnet_b4,MOONEY_VAL,Q3,1.22–1.31,48,0.021,0.0,0.082
+efficientnet_b4,MOONEY_VAL,Q4 (widest),1.31–1.67,49,0.061,0.0,0.143
+efficientnet_b4,MOONEY_VAL,"Spearman rho(aspect, logit), normals",,195,0.352,,
+efficientnet_b4,MOONEY_TEST,Q1 (narrowest),0.93–1.21,59,0.169,0.082,0.271
+efficientnet_b4,MOONEY_TEST,Q2,1.21–1.35,58,0.362,0.241,0.491
+efficientnet_b4,MOONEY_TEST,Q3,1.35–1.52,58,0.569,0.429,0.695
+efficientnet_b4,MOONEY_TEST,Q4 (widest),1.52–2.11,59,0.78,0.661,0.881
+efficientnet_b4,MOONEY_TEST,"Spearman rho(aspect, logit), normals",,234,0.533,,
+vit_b16,MOONEY_VAL,Q1 (narrowest),0.90–1.14,49,0.0,0.0,0.0
+vit_b16,MOONEY_VAL,Q2,1.14–1.22,49,0.0,0.0,0.0
+vit_b16,MOONEY_VAL,Q3,1.22–1.31,48,0.042,0.0,0.104
+vit_b16,MOONEY_VAL,Q4 (widest),1.31–1.67,49,0.041,0.0,0.102
+vit_b16,MOONEY_VAL,"Spearman rho(aspect, logit), normals",,195,0.458,,
+vit_b16,MOONEY_TEST,Q1 (narrowest),0.93–1.21,59,0.237,0.131,0.356
+vit_b16,MOONEY_TEST,Q2,1.21–1.35,58,0.379,0.259,0.5
+vit_b16,MOONEY_TEST,Q3,1.35–1.52,58,0.638,0.5,0.759
+vit_b16,MOONEY_TEST,Q4 (widest),1.52–2.11,59,0.78,0.678,0.881
+vit_b16,MOONEY_TEST,"Spearman rho(aspect, logit), normals",,234,0.472,,

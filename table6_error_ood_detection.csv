@@ -1,0 +1,25 @@
+Model,Cohort,Uncertainty score,Error-detection AUROC,Error-detection AUPRC,OOD-detection AUROC (vs ID test),OOD FPR@95%TPR,Error rate (chance AUPRC)
+EfficientNet-B4,Mooney ID test,MC predictive entropy (primary),0.789 (0.747–0.829),0.355 (0.290–0.443),—,—,0.1779
+EfficientNet-B4,Mooney ID test,MC mutual information,0.793 (0.751–0.834),0.365 (0.299–0.456),—,—,0.1779
+EfficientNet-B4,Mooney ID test,Deterministic entropy (baseline),0.788 (0.745–0.828),0.352 (0.289–0.441),—,—,0.1779
+EfficientNet-B4,NIH AP (adult),MC predictive entropy (primary),0.245 (0.228–0.262),0.781 (0.771–0.790),0.763 (0.728–0.794),0.436 (0.390–0.490),0.8868
+EfficientNet-B4,NIH AP (adult),MC mutual information,0.251 (0.234–0.268),0.786 (0.776–0.795),0.762 (0.727–0.794),0.436 (0.388–0.487),0.8868
+EfficientNet-B4,NIH AP (adult),Deterministic entropy (baseline),0.245 (0.227–0.262),0.780 (0.770–0.790),0.763 (0.728–0.794),0.436 (0.391–0.491),0.8868
+EfficientNet-B4,NIH PA (adult),MC predictive entropy (primary),0.567 (0.559–0.575),0.294 (0.288–0.301),0.853 (0.827–0.877),0.304 (0.260–0.353),0.2703
+EfficientNet-B4,NIH PA (adult),MC mutual information,0.586 (0.578–0.594),0.319 (0.312–0.327),0.850 (0.824–0.875),0.306 (0.263–0.354),0.2703
+EfficientNet-B4,NIH PA (adult),Deterministic entropy (baseline),0.564 (0.556–0.572),0.293 (0.286–0.299),0.853 (0.827–0.878),0.304 (0.259–0.352),0.2703
+EfficientNet-B4,NIH AP-Hard (adult),MC predictive entropy (primary),0.316 (0.293–0.338),0.875 (0.865–0.884),0.715 (0.675–0.751),0.481 (0.432–0.540),0.9351
+EfficientNet-B4,NIH AP-Hard (adult),MC mutual information,0.317 (0.294–0.340),0.877 (0.868–0.886),0.714 (0.675–0.750),0.492 (0.442–0.545),0.9351
+EfficientNet-B4,NIH AP-Hard (adult),Deterministic entropy (baseline),0.316 (0.293–0.339),0.874 (0.865–0.884),0.715 (0.675–0.751),0.482 (0.434–0.541),0.9351
+ViT-B/16,Mooney ID test,MC predictive entropy (primary),0.825 (0.784–0.861),0.500 (0.413–0.596),—,—,0.1923
+ViT-B/16,Mooney ID test,MC mutual information,0.810 (0.767–0.849),0.470 (0.386–0.568),—,—,0.1923
+ViT-B/16,Mooney ID test,Deterministic entropy (baseline),0.831 (0.792–0.866),0.504 (0.418–0.601),—,—,0.1923
+ViT-B/16,NIH AP (adult),MC predictive entropy (primary),0.345 (0.323–0.366),0.866 (0.858–0.874),0.701 (0.661–0.736),0.562 (0.510–0.625),0.9191
+ViT-B/16,NIH AP (adult),MC mutual information,0.339 (0.317–0.360),0.859 (0.850–0.867),0.688 (0.648–0.722),0.630 (0.579–0.685),0.9191
+ViT-B/16,NIH AP (adult),Deterministic entropy (baseline),0.348 (0.326–0.369),0.867 (0.858–0.874),0.711 (0.671–0.746),0.521 (0.469–0.576),0.9191
+ViT-B/16,NIH PA (adult),MC predictive entropy (primary),0.610 (0.603–0.616),0.510 (0.501–0.518),0.834 (0.804–0.861),0.308 (0.264–0.357),0.3714
+ViT-B/16,NIH PA (adult),MC mutual information,0.585 (0.579–0.592),0.453 (0.445–0.462),0.830 (0.800–0.857),0.324 (0.279–0.375),0.3714
+ViT-B/16,NIH PA (adult),Deterministic entropy (baseline),0.619 (0.612–0.626),0.516 (0.507–0.524),0.836 (0.807–0.863),0.303 (0.260–0.351),0.3714
+ViT-B/16,NIH AP-Hard (adult),MC predictive entropy (primary),0.401 (0.377–0.425),0.926 (0.918–0.932),0.611 (0.564–0.652),0.673 (0.621–0.725),0.9518
+ViT-B/16,NIH AP-Hard (adult),MC mutual information,0.400 (0.375–0.423),0.924 (0.917–0.931),0.592 (0.546–0.632),0.737 (0.689–0.785),0.9518
+ViT-B/16,NIH AP-Hard (adult),Deterministic entropy (baseline),0.404 (0.380–0.428),0.926 (0.919–0.932),0.627 (0.580–0.668),0.585 (0.534–0.641),0.9518

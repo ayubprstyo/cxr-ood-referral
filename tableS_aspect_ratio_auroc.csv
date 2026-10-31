@@ -1,0 +1,4 @@
+split,n,aspect_median_normal,aspect_median_pneumonia,auroc_aspect_only,ci_low,ci_high
+Training,4468,1.223,1.492,0.868,0.855,0.879
+Validation,738,1.222,1.47,0.858,0.825,0.888
+ID test,624,1.353,1.506,0.704,0.656,0.753

@@ -1,0 +1,9 @@
+{
+  "temperatures": {
+    "efficientnet_b4": 1.5296217972658805,
+    "vit_b16": 1.4168967422767194
+  },
+  "fitted_on": "MOONEY_VAL (738 images) only",
+  "objective": "NLL, bounded search on log T in [-3, 3]",
+  "note": "Applied unchanged to all cohorts; predicted classes are unaffected because thresholds act on logits."
+}

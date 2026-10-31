@@ -1,0 +1,12 @@
+Cohort,Role,Images,Pneumonia,Negative,Prevalence (%),Patients,"Age, median (IQR)",Female (%)
+Mooney training,model fitting,4468,3315,1153,74.19,2453,—,—
+Mooney validation,calibration/threshold,738,543,195,73.58,408,—,—
+Mooney ID test,ID primary,624,390,234,62.5,427,—,—
+"ID test, non-colliding IDs",ID sensitivity,304,70,234,23.03,257,—,—
+"ID test, de-duplicated",ID sensitivity,618,387,231,62.62,426,—,—
+NIH AP (adult),OOD primary,20588,736,19852,3.57,6682,49 (35–59),41.5
+NIH PA (adult),OOD primary,38038,586,37452,1.54,21622,48 (36–58),44.9
+NIH AP-Hard (adult),OOD primary,18736,736,18000,3.93,4343,50 (36–60),42.1
+NIH AP (all ages),OOD sensitivity,21860,801,21059,3.66,7178,48 (33–58),41.5
+NIH PA (all ages),OOD sensitivity,39932,630,39302,1.58,22608,47 (34–58),45.0
+NIH AP-Hard (all ages),OOD sensitivity,19893,801,19092,4.03,4603,49 (33–59),41.9

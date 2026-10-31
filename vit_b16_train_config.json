@@ -1,0 +1,30 @@
+{
+  "model": "vit_b16",
+  "seed": 42,
+  "sens_target": 0.95,
+  "pretrained": true,
+  "smoke_test": false,
+  "split_fingerprints": {
+    "train": "762c050910f4560893544f55ef702ba22d80dd948d0a9b007a57b9f49ce79f4b",
+    "val": "13d0556c2de25782967c5cd20ceb54508ca4b8061cdca9e0c9c6ae0bff2f139c"
+  },
+  "preprocessing": "grayscale; pad-to-square black; Lanczos resize; 3-channel; ImageNet mean/std",
+  "augmentation": "RandomAffine(deg=7, translate=0.05, scale=0.95-1.05, fill=0); ColorJitter(b=0.1, c=0.1); no flips/crops",
+  "loss": "BCEWithLogitsLoss (unweighted)",
+  "early_stopping": "val BCE loss",
+  "timm_name": "vit_base_patch16_224.augreg_in21k_ft_in1k",
+  "img_size": 224,
+  "batch_size": 32,
+  "accum": 1,
+  "lr_backbone": 3e-05,
+  "lr_head": 0.001,
+  "weight_decay": 0.05,
+  "drop_path": 0.1,
+  "max_epochs": 30,
+  "min_epochs": 5,
+  "patience": 6,
+  "warmup_epochs": 1,
+  "grad_clip": 1.0,
+  "head_dropout": 0.3,
+  "head_hidden": 256
+}

@@ -1,0 +1,9 @@
+Model,Cohort,errors,confidently_incorrect,pct_of_errors,confident_FP,confident_FN,pct_of_all_images
+EfficientNet-B4,Mooney ID test,111,56,50.5,56,0,8.97
+EfficientNet-B4,NIH AP (adult),18257,10065,55.1,10064,1,48.89
+EfficientNet-B4,NIH PA (adult),10283,1529,14.9,1497,32,4.02
+EfficientNet-B4,NIH AP-Hard (adult),17520,12196,69.6,12195,1,65.09
+ViT-B/16,Mooney ID test,120,48,40.0,48,0,7.69
+ViT-B/16,NIH AP (adult),18922,11360,60.0,11360,0,55.18
+ViT-B/16,NIH PA (adult),14126,2000,14.2,1970,30,5.26
+ViT-B/16,NIH AP-Hard (adult),17832,14952,83.8,14952,0,79.8

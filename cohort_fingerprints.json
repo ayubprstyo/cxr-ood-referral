@@ -1,0 +1,34 @@
+{
+  "cohort_fingerprints_sha256": {
+    "OOD_AP_ALLAGE": "2f209001f1183bcddc265cd93a36eaf00d2151d6d0088b0b44c2cd1d03c70f80",
+    "OOD_AP_ADULT": "b13bc8c6413b3a5725e08184ade4a34305288d0daff717533589399c83e0d567",
+    "OOD_PA_ALLAGE": "f1a6c96829c1b91d1221cd971c2de053be878f49fea846ff5fd36ba3e36b8474",
+    "OOD_PA_ADULT": "ede8eeb671334525f5d4d0edce8a8a025bcf7992bb19d9060e8a17c6bd116cb0",
+    "OOD_HARD_AP_ALLAGE": "9647dd49e598ef43d1321fe31e4401786c8293e15ba71956d8b6c77f2c922372",
+    "OOD_HARD_AP_ADULT": "b8cc02779f56de273cd8ffcca8bc5915451e279f97f9b42f2211c1f1c544fb60",
+    "MOONEY_TRAIN": "762c050910f4560893544f55ef702ba22d80dd948d0a9b007a57b9f49ce79f4b",
+    "MOONEY_VAL": "13d0556c2de25782967c5cd20ceb54508ca4b8061cdca9e0c9c6ae0bff2f139c",
+    "MOONEY_TEST": "723c6c2e962c6704b4e61e693ea96f831104cd9f937acbbf309b46b0edc55101"
+  },
+  "locked_protocol": {
+    "nih_primary_age": [
+      18,
+      100
+    ],
+    "nih_sensitivity": "all ages",
+    "hard_negative_findings": [
+      "Atelectasis",
+      "Consolidation",
+      "Edema",
+      "Effusion",
+      "Infiltration"
+    ],
+    "mooney_test_primary": "all 624 images untouched",
+    "mooney_test_prespecified_sensitivity": [
+      "exclude 320 images whose personN collides with dev (test_sensitivity_noncolliding)",
+      "drop redundant identical copies (test_sensitivity_dedup_keep)"
+    ],
+    "nih_ci": "patient-level bootstrap"
+  },
+  "note": "Mooney fingerprints = SHA-256 of newline-joined sorted file paths in the Kaggle mount; NIH = SHA-256 of newline-joined sorted file names."
+}

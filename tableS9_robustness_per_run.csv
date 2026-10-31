@@ -1,0 +1,33 @@
+Model,Run,Cohort,AUROC (95% CI),Specificity at A,Error-detection AUROC (95% CI),"Error rate, no referral",Selective risk at τ90,Confidently incorrect (% of errors)
+EfficientNet-B4,"Letterbox, seed 42 (primary)",Mooney ID test,0.963 (0.946–0.976),0.530,0.789 (0.745–0.827),0.178,0.115,50.5
+EfficientNet-B4,"Letterbox, seed 42 (primary)",NIH AP (adult),0.626 (0.601–0.649),0.081,0.246 (0.229–0.264),0.887,0.950,57.3
+EfficientNet-B4,"Letterbox, seed 42 (primary)",NIH PA (adult),0.655 (0.632–0.677),0.733,0.567 (0.560–0.575),0.270,0.211,16.1
+EfficientNet-B4,"Letterbox, seed 42 (primary)",NIH AP-Hard (adult),0.511 (0.486–0.534),0.028,0.317 (0.291–0.341),0.935,0.960,71.6
+EfficientNet-B4,"Letterbox, seed 43",Mooney ID test,0.969 (0.953–0.980),0.432,0.878 (0.842–0.906),0.215,0.105,38.1
+EfficientNet-B4,"Letterbox, seed 43",NIH AP (adult),0.641 (0.616–0.664),0.024,0.502 (0.483–0.523),0.941,0.947,49.6
+EfficientNet-B4,"Letterbox, seed 43",NIH PA (adult),0.639 (0.615–0.662),0.553,0.869 (0.864–0.874),0.445,0.167,7.5
+EfficientNet-B4,"Letterbox, seed 43",NIH AP-Hard (adult),0.510 (0.485–0.533),0.006,0.462 (0.438–0.484),0.955,0.960,68.7
+EfficientNet-B4,"Letterbox, seed 44",Mooney ID test,0.965 (0.949–0.978),0.500,0.871 (0.833–0.906),0.188,0.079,32.5
+EfficientNet-B4,"Letterbox, seed 44",NIH AP (adult),0.633 (0.610–0.655),0.023,0.509 (0.490–0.527),0.942,0.945,42.9
+EfficientNet-B4,"Letterbox, seed 44",NIH PA (adult),0.658 (0.634–0.681),0.603,0.897 (0.892–0.902),0.396,0.108,4.6
+EfficientNet-B4,"Letterbox, seed 44",NIH AP-Hard (adult),0.498 (0.474–0.520),0.006,0.454 (0.430–0.476),0.955,0.960,62.1
+EfficientNet-B4,"No padding, seed 42",Mooney ID test,0.962 (0.944–0.977),0.611,0.799 (0.750–0.843),0.151,0.091,47.9
+EfficientNet-B4,"No padding, seed 42",NIH AP (adult),0.599 (0.575–0.623),0.006,0.522 (0.494–0.549),0.959,0.962,93.2
+EfficientNet-B4,"No padding, seed 42",NIH PA (adult),0.610 (0.586–0.632),0.346,0.309 (0.304–0.315),0.647,0.844,40.7
+EfficientNet-B4,"No padding, seed 42",NIH AP-Hard (adult),0.516 (0.492–0.540),0.002,0.495 (0.471–0.518),0.959,0.960,96.6
+ViT-B/16,"Letterbox, seed 42 (primary)",Mooney ID test,0.969 (0.956–0.980),0.491,0.824 (0.783–0.864),0.192,0.108,41.7
+ViT-B/16,"Letterbox, seed 42 (primary)",NIH AP (adult),0.683 (0.663–0.705),0.047,0.346 (0.326–0.367),0.919,0.949,61.9
+ViT-B/16,"Letterbox, seed 42 (primary)",NIH PA (adult),0.636 (0.613–0.660),0.630,0.610 (0.603–0.617),0.371,0.308,15.6
+ViT-B/16,"Letterbox, seed 42 (primary)",NIH AP-Hard (adult),0.495 (0.471–0.518),0.010,0.406 (0.380–0.432),0.952,0.961,85.1
+ViT-B/16,"Letterbox, seed 43",Mooney ID test,0.984 (0.975–0.991),0.342,0.923 (0.898–0.945),0.247,0.084,24.7
+ViT-B/16,"Letterbox, seed 43",NIH AP (adult),0.724 (0.703–0.743),0.002,0.681 (0.659–0.702),0.962,0.955,73.4
+ViT-B/16,"Letterbox, seed 43",NIH PA (adult),0.653 (0.626–0.680),0.157,0.752 (0.745–0.758),0.831,0.874,15.5
+ViT-B/16,"Letterbox, seed 43",NIH AP-Hard (adult),0.529 (0.501–0.555),0.000,0.520 (0.495–0.543),0.961,0.960,93.1
+ViT-B/16,"Letterbox, seed 44",Mooney ID test,0.967 (0.953–0.979),0.457,0.803 (0.761–0.846),0.205,0.115,41.4
+ViT-B/16,"Letterbox, seed 44",NIH AP (adult),0.691 (0.671–0.711),0.022,0.434 (0.407–0.464),0.943,0.954,73.7
+ViT-B/16,"Letterbox, seed 44",NIH PA (adult),0.660 (0.637–0.684),0.554,0.468 (0.461–0.475),0.445,0.662,15.9
+ViT-B/16,"Letterbox, seed 44",NIH AP-Hard (adult),0.509 (0.485–0.533),0.003,0.475 (0.451–0.497),0.958,0.960,91.7
+ViT-B/16,"No padding, seed 42",Mooney ID test,0.979 (0.967–0.988),0.470,0.893 (0.857–0.925),0.200,0.087,32.8
+ViT-B/16,"No padding, seed 42",NIH AP (adult),0.659 (0.637–0.682),0.006,0.581 (0.557–0.605),0.959,0.960,86.8
+ViT-B/16,"No padding, seed 42",NIH PA (adult),0.652 (0.629–0.674),0.384,0.716 (0.709–0.723),0.609,0.647,21.6
+ViT-B/16,"No padding, seed 42",NIH AP-Hard (adult),0.501 (0.474–0.526),0.001,0.498 (0.474–0.521),0.960,0.960,96.6

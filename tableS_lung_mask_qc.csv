@@ -1,0 +1,9 @@
+Model,Cohort,sampled,qc_fail
+EfficientNet-B4,Mooney ID test,624,0
+EfficientNet-B4,NIH AP (adult),1500,5
+EfficientNet-B4,NIH AP-Hard (adult),1500,3
+EfficientNet-B4,NIH PA (adult),1500,0
+ViT-B/16,Mooney ID test,624,0
+ViT-B/16,NIH AP (adult),1500,5
+ViT-B/16,NIH AP-Hard (adult),1418,3
+ViT-B/16,NIH PA (adult),1500,0
